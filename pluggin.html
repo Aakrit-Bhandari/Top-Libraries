@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pluggin In HTML</title>
+    <link rel="stylesheet" href="plug.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    
+    <div class="exitpopup">
+      <div class="col col1">
+        <h1 class="head">Rich Dad Poor Dad</h1>
+        <p style="color:rgb(0, 0, 0);font-family:arial;padding-left: 20px;padding-top:20px;">
+          Rich Dad Poor Dad is a 1997 book written by
+          <a target="blank" href="https://en.wikipedia.org/wiki/Robert_Kiyosaki" style="color:blue;"
+            >Robert T. Kiyosaki</a
+          >
+          and Sharon Lechter. It advocates the importance of financial literacy,
+          financial independence and building wealth through investing in
+          assets, real estate investing, starting and owning businesses, as well
+          as increasing one's financial intelligence.<br /><i
+            style="color: rgb(242, 19, 75)"
+          >
+            "The poor works for money the Rich makes money works for them"</i
+          >
+        </p>
+      </div>
+      <div class="col col2">
+        <button style="color:black;"class="close">X</button>
+        <a target="blank" href="https://en.wikipedia.org/wiki/Rich_Dad_Poor_Dad"
+          ><img src="51u8ZRDCVoL.jpg" alt=""
+        /></a>
+        <span class="buy"
+          ><a target="blank"
+            href="https://www.amazon.com/Rich-Dad-Poor-Teach-Middle/dp/1612680194"
+            >BUY NOW!!</a
+          ></span
+        >
+      </div>
+      <div class="col"></div>
+      <div class="col"></div>
+      <div class="col"></div>
+      <div class="col"></div>
+      <div class="col"></div>
+      <div class="col"></div>
+    </div>
+    
+    <script>
+      const exitPopup = document.getElementsByClassName("exitpopup")[0];
+      const exitPopupClose = document.getElementsByClassName("close")[0];
+      const hideExitPopup = () => (exitPopup.style.display = "none");
+      const showExitPopup = () => (exitPopup.style.display = "");
+      document.addEventListener("mouseleave", showExitPopup);
+      exitPopupClose.addEventListener("click", hideExitPopup);
+    </script>
+    
+    <header>
+      <div class="top">
+        <h1 class="headings">World's Top 20 Libraries</h1>
+        <hr style="border-color:coral;box-shadow: 10ch;">
+      </div>
+      <div class="bot">
+        <nav>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Think-Pro</a></li>
+              <li><a href="aboutus.html" target="blank">AboutUS</a></li>
+              <li><a href="#">Tie-ups</a></li>
+              <li><a href="#">Contact us</a></li>
+            <li class="active" style="float:right;"><a href="#">Login</a></li>
+            <li class="active" style="float:right;"><a href="#">SignUp</a></li>
+        </nav>
+      </div>
+    </header>
+    <marquee id="quote-marquee" behaviour="slide" scrollamount="10">
+    <script>
+const quotes = [
+  "A reader lives a thousand lives before he dies.- George R.R. Martin"
+];
+
+const marquee = document.getElementById("quote-marquee");
+
+for (let i = 0; i < quotes.length; i++) {
+  marquee.innerHTML += quotes[i] + " ";
+}
+</script>
+</marquee>
+<div class="search">
+<div class="yellow">
+  <div class="fa fa-search"></div>
+  <form action="https://www.google.com/search" target="blank" autocomplete="off">
+  <input type="text" name="q"placeholder="Search" class />
+  </form>
+  <div class="fa fa-times"></div>
+</div>
+</div>
+<br><br>
+<hr style="border-color:coral">
+</section>
+<br>
+<hr style="border-color:coral">
+<section class="main2">
+  <div class="main">
+    <a href="https://en.wikipedia.org/wiki/Bodleian_Library"  target="blank"><img src="888383.jpg" alt="">
+      <p>Bodleain Library</p>
+    </a>
+  </div>
+  <div class="main">
+    <a href="https://en.wikipedia.org/wiki/British_Library"  target="blank"><img src="BritishLibraryInterior02.jpg" alt="">
+      <p>British Library</p>
+    </a>
+  </div>
+  <div class="main">
+    <a href="https://en.wikipedia.org/wiki/National_library"  target="blank"><img src="National Library of St..jpeg" alt="">
+      <p>National Library of St.</p>
+    </a>
+  </div>
+  <div class="main">
+    <a href="https://en.wikipedia.org/wiki/British_Museum_Reading_Room"  target="blank"><img src="readingroomatthebritishmuseum.jpeg" alt="">
+      <p>British_Museum_Reading_Roomn</p>
+    </a>
+  </div>
+  <div class="main">
+    <a href="https://en.wikipedia.org/wiki/Yale_University_Library"  target="blank"><img src="Yale University Beinecke Rare Book and Manuscript Library — New Haven, Connecticut, USA. ....jpeg" alt="">
+      <p>Yale University Beinecke</p>
+    </a>
+  </div>
+  <div class="main">
+    <a href="https://en.wikipedia.org/wiki/Vatican_Library"  target="blank"><img src="vatican.jpeg" alt="">
+      <p>Vatican</p>
+    </a>
+  </div>
+  <div class="main">
+    <a href="https://en.wikipedia.org/wiki/Library_of_Trinity_College_Dublin" target="blank"><img src="trinity.jpg" alt="">
+      <p>Library of Trinity</p>
+    </a>
+  </div>
+  <div class="main">
+    <a href="https://en.wikipedia.org/wiki/Wiblingen_Abbey" target="blank"><img src="25-wiblingen-monastery-library.jpg" alt="">
+      <p>Wiblingen Monastery</p>
+    </a>
+  </div>
+  <div class="main">
+    <a href="https://en.wikipedia.org/wiki/George_Peabody_Library" target="blank"><img src="26-george-peabody-library.jpg" alt="">
+      <p>George-Peabody</p>
+    </a>
+  </div>
+  <div class="main">
+    <a href="https://en.wikipedia.org/wiki/Hans_Scharoun" target="blank"><img src="metalocus_hans_scharoun_biblioteca_nacional_berlin_12_1280-1240x826.jpg" alt="">
+      <p>Metalocus Hans Scharoun</p>
+    </a>
+  </div>
+  <div class="main">
+    <a href="https://en.wikipedia.org/wiki/Stockholm_Public_Library" target="blank"><img src="32-stockholm-public-library.jpg" alt="">
+      <p>Stockholm Public Library</p>
+    </a>
+  </div>
+  <div class="main">
+    <a href="https://en.wikipedia.org/wiki/Library_of_Congress" target="blank"><img src="congress library.jpeg" alt="">
+      <p>Library of Congress</p>
+    </a>
+  </div>
+  <div class="main">
+    <a href="https://en.wikipedia.org/wiki/The_Library_of_the_History_of_Human_Imagination" target="blank"><img src="17-jay-walker-library.jpg" alt="">
+      <p>Jay Walker Library</p>
+    </a>
+  </div>
+  <div class="main">
+    <a href="https://en.wikipedia.org/wiki/G%C3%B6rlitz" target="blank"><img src="germany-saxony-gorlitz-hall-historical-literature-wallpaper-preview.jpg" alt="">
+      <p>Germany saxony Gorlitz Hal</p>
+    </a>
+  </div>
+  <div class="main">
+    <a href="https://en.wikipedia.org/wiki/Library_of_Parliament" target="blank"><img src="8-library-parliament-canada.jpg" alt="">
+      <p>Library of Parliament</p>
+    </a>
+  </div>
+  <div class="main">
+    <a href="https://en.wikipedia.org/wiki/Austrian_National_Library" target="blank"><img src="13-austrian-national-library.jpg" alt="">
+      <p>Austrain National Library</p>
+    </a>
+  </div>
+  <div class="main">
+    <a href="https://en.wikipedia.org/wiki/Abbey_library_of_Saint_Gall" target="blank"><img src="12-abbey-library-st-gall.jpg" alt="">
+      <p>Abbey LIbrary St Gall</p>
+    </a>
+  </div>
+  <div class="main">
+    <a href="https://library.columbia.edu/libraries/lehman.html" target="blank">
+      <img src="sipa_00787274_000002-1240x620.jpg" alt="">
+    </img>
+    <p>Sipa Library</p>
+    </a>
+  </div>
+  <div class="main">
+    <a href="https://en.wikipedia.org/wiki/Openbare_Bibliotheek_Amsterdam" target="blank">
+      <img src="Centrale-Bibliotheek-in-Amsterdam-2.jpg" alt="">
+    </img>
+    <p>Centrale-Bibliotheek</p>
+    </a>
+  </div>
+  <div class="main">
+    <a  target="blank" href="https://en.wikipedia.org/wiki/Biblioth%C3%A8que_nationale_de_France">
+      <img src="Bibliotheque-Nationale-in-Paris-2.jpg" alt="">
+    </img>
+    <p>BibliothequeNationale</p>
+    </a>
+  </div>
+</section>
+<footer class="last">
+  <div class="heading">
+    <ul>
+    <li   style="font-size:20px; color:gold;" >Foolish Developer</li>
+    <li>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Aspernatur ea <br> quam porro quas enim .</li>
+    <li class="a"><a href="#" class="fa fa-facebook"></a></li>
+      <li class="a"><a href="#" class="fa fa-twitter"></a></li>
+      <li class="a"><a href="#" class="fa fa-whatsapp"></a></li>
+      <li class="a"><a href="$" class="fa fa-youtube"></a></li>
+      <li class="a"><a href="#" class="fa fa-instagram"></a></li>
+  </ul>
+  </div>
+  <div class="heading2">
+    <ul>
+      <li  style="font-size:20px; color:gold;" class="b">Some Links</li>
+      <li class="b">F.A.Q</li>
+      <li class="b">Cookies Policy</li>
+      <li class="b">Terms & Service</li>
+      <li class="b">Support</li>
+    </ul>
+  </div>
+  <div class="heading2">
+    <ul>
+      <li  style="font-size:20px; color:gold;"  class="b">Some Links</li>
+      <li class="b">F.A.Q</li>
+      <li class="b">Cookies Policy</li>
+      <li class="b">Terms & Service</li>
+      <li class="b">Support</li>
+    </ul>
+  </div>
+  <div class="heading3">
+    <ul>
+      <li    style="font-size:20px; color:gold;" class="b">Newsletter</li>
+      <li class="b"><input type="text" placeholder="Your email here"></li>
+      <li class="b"><button type="submit">SUBSCRIBE</button></li>
+    </ul>
+  </div>
+</footer>
+
+
+<div class="copy">
+  <span>Copyright© 2023 Foolish Developer</span>
+</div>
+  </body>
+</html>
